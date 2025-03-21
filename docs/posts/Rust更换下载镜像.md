@@ -4,6 +4,8 @@ tags:
     - rust
 ---
 
+# Rust 更换下载镜像
+
 ## 一、覆盖默认的镜像地址（推荐使用）
 直接使用新注册的服务来替代默认的 `crates.io` 。  
 在 `$HOME/.cargo/config.toml` 添加以下内容：  
