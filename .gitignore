@@ -4,5 +4,7 @@ cache
 .temp
 .DS_Store
 .vscode
-docs/posts/.obsidian
+docs/.obsidian
 docs/sop
+docs/drafts
+docs/templates
