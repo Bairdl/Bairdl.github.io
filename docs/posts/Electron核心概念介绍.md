@@ -4,6 +4,7 @@ tags:
     - web
 ---
 
+# Electron 核心概念介绍
 
 ### 1. Electron 是什么？
 Electron 是一个基于 **Chromium**（浏览器内核）和 **Node.js**（JavaScript 运行时）的开源框架，允许开发者使用 **Web 技术（HTML/CSS/JavaScript）** 快速构建跨平台（Windows/macOS/Linux）的桌面应用程序。其核心目标是通过 **Web 技术栈** 替代传统的原生开发（如 C++/Java），降低跨平台开发的复杂性。

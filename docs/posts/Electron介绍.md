@@ -4,6 +4,8 @@ tags:
     - web
 ---
 
+# Electron介绍
+
 ### 一、Electron 是什么？
 **Electron** 是一个基于 **Chromium**（浏览器核心）和 **Node.js**（JavaScript运行时）的开源框架，允许开发者使用 **Web技术（HTML/CSS/JavaScript）** 快速构建跨平台（Windows/macOS/Linux）的桌面应用程序。其核心目标是通过 **Web技术栈** 替代传统的原生开发（如C++/Java），降低跨平台开发的复杂性。
 
@@ -84,7 +86,7 @@ tags:
 
 ---
 
-### **五、典型应用场景
+### 五、典型应用场景
 #### 1. 开发工具与IDE
 - **VS Code**：轻量级代码编辑器，支持插件生态。
 - **Postman**：API测试工具，跨平台支持。

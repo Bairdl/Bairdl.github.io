@@ -1,9 +1,14 @@
 node_modules
+
 dist
 cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 .temp
 .DS_Store
 .vscode
+
 docs/.obsidian
 docs/sop
 docs/drafts
