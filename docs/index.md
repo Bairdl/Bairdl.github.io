@@ -3,7 +3,7 @@ layout: home
 # 首页部分元素定制
 blog:
  name: 'XHAO'
- motto: 简约风博客
+ motto: 个人博客
  inspiring:
   - 千万不要因为走得太久，而忘记了我们为什么出发
   - 人生就像一场修行，你不可能一开始就修成正果

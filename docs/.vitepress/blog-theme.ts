@@ -27,6 +27,7 @@ const blogTheme = getThemeConfig({
   // markdown 图表支持（会增加一定的构建耗时）
   mermaid: true,
 
+
   // 页脚
   footer: {
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
@@ -43,7 +44,7 @@ const blogTheme = getThemeConfig({
   },
 
   // 主题色修改
-  themeColor: 'el-blue',
+  themeColor: 'vp-green',
 
   // 文章默认作者
   author: 'XHAO',
@@ -89,6 +90,16 @@ const blogTheme = getThemeConfig({
     ],
     duration: 0
   },
+
+  // oml2d LIVE2D 看板娘插件
+  // oml2d: {
+  //   mobileDisplay: true,
+  //   models: [
+  //     {
+  //       path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+  //     }
+  //   ]
+  // },
 })
 
 export { blogTheme }
