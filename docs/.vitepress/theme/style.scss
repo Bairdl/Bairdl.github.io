@@ -11,3 +11,27 @@
     background-size: cover;
   }
 }
+
+/* 定义字体 */
+@font-face {
+  font-family: 'LWGWWenKai'; /* 自定义字体名称 */
+  src: url('./assets/fonts/LXGWWenKai-Ragular.ttf') format('truetype'); /* 字体文件路径 */
+  font-weight: normal; /* 常规字重 */
+  font-style: normal; /* 正常样式 */
+}
+
+
+/* 设置全局字体 */
+body {
+  font-family: 'LWGWWenKai', sans-serif; /* 默认字体 */
+}
+
+
+.vp-doc strong{
+  font-family: 'LWGWWenKai';
+  // font-weight: bold;
+  font-weight: 800 !important;
+  font-size: 1.1em;
+  color: burlywood;
+
+}
