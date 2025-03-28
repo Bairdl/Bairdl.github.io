@@ -220,3 +220,154 @@ local a = 10 + 5
 local b = a == 15 and true or false
 local c = { key = "value" }
 ```
+
+### 算术运算符
+
+- `+`：加法运算符。
+- `-`：减法运算符。
+- `*`：乘法运算符。
+- `/`：除法运算符。
+- `%`：取模运算符（求余数）。
+- `^`：幂运算符。
+
+#### 示例
+
+```lua
+local sum = 5 + 3       -- 8
+local difference = 5 - 2 -- 3
+local product = 4 * 2   -- 8
+local quotient = 10 / 2 -- 5.0
+local remainder = 9 % 4 -- 1
+local power = 2 ^ 3     -- 8 (2 的 3 次方)
+```
+
+### 位运算符
+
+- `&`：按位与。
+- `~`：按位异或。
+- `|`：按位或。
+- `<<`：左移。
+- `>>`：右移。
+
+#### 示例
+
+```lua
+local bitwiseAnd = 5 & 3    -- 1
+local bitwiseXor = 5 ~ 3    -- 6
+local bitwiseOr = 5 | 3     -- 7
+local leftShift = 5 << 1    -- 10 (相当于 5 * 2)
+local rightShift = 8 >> 1   -- 4 (相当于 8 / 2，但结果是整数)
+```
+
+### 关系运算符
+
+- `==`：等于。
+- `~=`：不等于。
+- `<=`：小于等于。
+- `>=`：大于等于。
+- `<`：小于。
+- `>`：大于。
+
+#### 示例
+
+```lua
+local isEqual = 5 == 5      -- true
+local isNotEqual = 5 ~= 3   -- true
+local isLessThanOrEqual = 5 <= 3 -- false
+local isGreaterThanOrEqual = 5 >= 3 -- true
+local isLessThan = 5 < 3    -- false
+local isGreaterThan = 5 > 3 -- true
+```
+
+### 赋值运算符
+
+- `=`：赋值运算符。
+
+#### 示例
+
+```lua
+local x = 10               -- 将数值 10 赋给变量 x
+x = x + 1                 -- 增加 x 的值
+```
+
+### 分组符号
+
+- `(` 和 `)`：用于改变运算优先级或函数调用。
+
+#### 示例
+
+```lua
+local result = (5 + 3) * 2 -- 16
+print(math.max(1, 2, 3))   -- 函数调用
+```
+
+### 表构造符号
+
+- `{` 和 `}`：用于创建表（table），Lua 中的数据结构。
+
+#### 示例
+
+```lua
+local t = { key = "value", 10, 20 } -- 创建一个包含字段 'key' 和两个元素的表
+```
+
+### 索引符号
+
+- `[` 和 `]`：用于访问表中的元素。
+
+#### 示例
+
+```lua
+local t = { a = 1, b = 2 }
+print(t["a"])              -- 输出 1
+print(t.a)                 -- 同样输出 1
+```
+
+### 名称空间分隔符
+
+- `::`：通常用于模块中定义全局变量时，但在现代 Lua 编程实践中较少使用。
+
+### 语句终止符
+
+- `;`：可选的语句结束符，在一行中有多个语句时使用。
+
+#### 示例
+
+```lua
+local x = 1; local y = 2  -- 在同一行定义多个局部变量
+```
+
+### 字段分隔符
+
+- `,`：用于分隔列表中的元素或参数列表中的参数。
+- `.`：用于访问对象的属性或方法。
+
+#### 示例
+
+```lua
+local t = { x = 1, y = 2 } -- 使用逗号分隔表字段
+print(string.format("%d %d", t.x, t.y)) -- 使用点运算符访问表字段
+```
+
+### 连接运算符
+
+- `..`：字符串连接运算符。
+
+#### 示例
+
+```lua
+local str = "Hello" .. " World!" -- "Hello World!"
+```
+
+### 可变参数
+
+- `...`：表示函数中的可变参数。
+
+#### 示例
+
+```lua
+function concat(...)
+    return table.concat({...})
+end
+print(concat("Hello", " ", "World")) -- Hello World
+```
